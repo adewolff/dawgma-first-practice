@@ -1,0 +1,21 @@
+{
+    "read_files": "./reads/1_L001-ds.e27ead8aa6be4c68a1e80b9460b2f1db/WT_S24_L001_R1_001.fastq.gz, ./reads/1_L002-ds.e219acc834414d29a3069ac991df339d/WT_S24_L002_R1_001.fastq.gz, ./reads/1_L003-ds.d25ae93581894b2daf19fe6a061fb0ab/WT_S24_L003_R1_001.fastq.gz, ./reads/1_L004-ds.e4b4b57ee08149c68ab6968e46ce0e9f/WT_S24_L004_R1_001.fastq.gz",
+    "expected_format": "SR",
+    "compatible_fragment_ratio": 0.8445815195575753,
+    "num_compatible_fragments": 3193959,
+    "num_assigned_fragments": 3781706,
+    "num_consistent_mappings": 35556719,
+    "num_inconsistent_mappings": 1333536,
+    "MSF": 0,
+    "OSF": 0,
+    "ISF": 0,
+    "MSR": 0,
+    "OSR": 0,
+    "ISR": 0,
+    "SF": 1333536,
+    "SR": 35556719,
+    "MU": 0,
+    "OU": 0,
+    "IU": 0,
+    "U": 0
+}

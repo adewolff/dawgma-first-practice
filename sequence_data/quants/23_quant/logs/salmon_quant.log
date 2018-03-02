@@ -1,0 +1,43 @@
+[2018-02-28 21:17:44.494] [jointLog] [info] parsing read library format
+[2018-02-28 21:17:44.494] [jointLog] [info] There is 1 library.
+[2018-03-01 21:52:50.084] [jointLog] [info] parsing read library format
+[2018-03-01 21:52:50.084] [jointLog] [info] There is 1 library.
+[2018-03-01 21:52:50.122] [jointLog] [info] Loading Quasi index
+[2018-03-01 21:52:50.122] [jointLog] [info] Loading 32-bit quasi index
+[2018-03-01 21:52:50.299] [jointLog] [info] done
+[2018-03-01 21:52:50.299] [jointLog] [info] Index contained 31677 targets
+[2018-03-01 21:52:50.517] [jointLog] [info] Automatically detected most likely library type as SR
+[2018-03-01 21:52:58.982] [fileLog] [info] 
+At end of round 0
+==================
+Observed 2010167 total fragments (2010167 in most recent round)
+
+[2018-03-01 21:52:58.981] [jointLog] [info] Computed 32123 rich equivalence classes for further processing
+[2018-03-01 21:52:58.981] [jointLog] [info] Counted 909698 total reads in the equivalence classes 
+[2018-03-01 21:52:59.055] [jointLog] [warning] Only 909698 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2018-03-01 21:52:59.055] [jointLog] [info] Mapping rate = 45.2548%
+
+[2018-03-01 21:52:59.055] [jointLog] [info] finished quantifyLibrary()
+[2018-03-01 21:52:59.056] [jointLog] [info] Starting optimizer
+[2018-03-01 21:52:59.074] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2018-03-01 21:52:59.076] [jointLog] [info] iteration = 0 | max rel diff. = 2.19063
+[2018-03-01 21:52:59.353] [jointLog] [info] iteration = 100 | max rel diff. = 0.125403
+[2018-03-01 21:52:59.630] [jointLog] [info] iteration = 200 | max rel diff. = 0.0577616
+[2018-03-01 21:52:59.909] [jointLog] [info] iteration = 300 | max rel diff. = 0.0402602
+[2018-03-01 21:53:00.201] [jointLog] [info] iteration = 400 | max rel diff. = 0.0293698
+[2018-03-01 21:53:00.487] [jointLog] [info] iteration = 500 | max rel diff. = 0.0242159
+[2018-03-01 21:53:00.804] [jointLog] [info] iteration = 600 | max rel diff. = 0.0197279
+[2018-03-01 21:53:01.108] [jointLog] [info] iteration = 700 | max rel diff. = 0.0156816
+[2018-03-01 21:53:01.472] [jointLog] [info] iteration = 800 | max rel diff. = 0.0146111
+[2018-03-01 21:53:01.874] [jointLog] [info] iteration = 900 | max rel diff. = 0.011265
+[2018-03-01 21:53:02.291] [jointLog] [info] iteration = 1000 | max rel diff. = 0.0112658
+[2018-03-01 21:53:02.361] [jointLog] [info] iteration = 1020 | max rel diff. = 0.00993074
+[2018-03-01 21:53:02.362] [jointLog] [info] Finished optimizer
+[2018-03-01 21:53:02.362] [jointLog] [info] writing output 
+
+[2018-03-01 21:53:02.413] [jointLog] [warning] NOTE: Read Lib [./reads/23_L001-ds.c8e7dd04f1444978a19db92d52c1885b/664_S9_L001_R1_001.fastq.gz, ./reads/23_L002-ds.232ffe2e55fc4a8eb76f31d67604055b/664_S9_L002_R1_001.fastq.gz, ./reads/23_L003-ds.f644cca5b2e942798a8d6d54f4f6d086/664_S9_L003_R1_001.fastq.gz, ./reads/23_L004-ds.b264366b86a940038ea36935b5a47596/664_S9_L004_R1_001.fastq.gz] :
+
+Greater than 5% of the fragments disagreed with the provided library type; check the file: quants/23_quant/lib_format_counts.json for details
+

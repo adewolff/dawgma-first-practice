@@ -1,0 +1,37 @@
+[2018-02-28 21:17:43.320] [jointLog] [info] parsing read library format
+[2018-02-28 21:17:43.320] [jointLog] [info] There is 1 library.
+[2018-03-01 21:43:10.829] [jointLog] [info] parsing read library format
+[2018-03-01 21:43:10.829] [jointLog] [info] There is 1 library.
+[2018-03-01 21:43:10.867] [jointLog] [info] Loading Quasi index
+[2018-03-01 21:43:10.867] [jointLog] [info] Loading 32-bit quasi index
+[2018-03-01 21:43:11.041] [jointLog] [info] done
+[2018-03-01 21:43:11.041] [jointLog] [info] Index contained 31677 targets
+[2018-03-01 21:43:11.169] [jointLog] [info] Computed 603 rich equivalence classes for further processing
+[2018-03-01 21:43:11.169] [jointLog] [info] Counted 693 total reads in the equivalence classes 
+[2018-03-01 21:43:11.172] [jointLog] [warning] Only 693 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2018-03-01 21:43:11.172] [jointLog] [info] Mapping rate = 44.1964%
+
+[2018-03-01 21:43:11.172] [jointLog] [info] finished quantifyLibrary()
+[2018-03-01 21:43:11.173] [jointLog] [info] Starting optimizer
+[2018-03-01 21:43:11.183] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2018-03-01 21:43:11.183] [jointLog] [info] iteration = 0 | max rel diff. = 0.980087
+[2018-03-01 21:43:11.196] [jointLog] [info] iteration = 100 | max rel diff. = 0.0553688
+[2018-03-01 21:43:11.208] [jointLog] [info] iteration = 200 | max rel diff. = 0.025733
+[2018-03-01 21:43:11.169] [fileLog] [info] 
+At end of round 0
+==================
+Observed 1568 total fragments (1568 in most recent round)
+
+[2018-03-01 21:43:11.220] [jointLog] [info] iteration = 300 | max rel diff. = 0.0151451
+[2018-03-01 21:43:11.233] [jointLog] [info] iteration = 400 | max rel diff. = 0.011375
+[2018-03-01 21:43:11.245] [jointLog] [info] iteration = 500 | max rel diff. = 0.0112195
+[2018-03-01 21:43:11.250] [jointLog] [info] iteration = 536 | max rel diff. = 0.0097756
+[2018-03-01 21:43:11.250] [jointLog] [info] Finished optimizer
+[2018-03-01 21:43:11.250] [jointLog] [info] writing output 
+
+[2018-03-01 21:43:11.289] [jointLog] [warning] NOTE: Read Lib [./reads/15_L001-ds.f88dbf3bb6ea4fc489bbcd7e2d07ea55/16970_S18_L001_R1_001.fastq.gz, ./reads/15_L002-ds.98008d0d41424105bc8df1fc675e024d/16970_S18_L002_R1_001.fastq.gz, ./reads/15_L003-ds.a46f8f75b97243bcb12101a69ab25c4d/16970_S18_L003_R1_001.fastq.gz, ./reads/15_L004-ds.99c8cc525f0e4e729ff9389cc93c6e6c/16970_S18_L004_R1_001.fastq.gz] :
+
+Detected a *potential* strand bias > 1% in an unstranded protocol check the file: quants/15_quant/lib_format_counts.json for details
+

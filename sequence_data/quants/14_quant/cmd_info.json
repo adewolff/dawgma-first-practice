@@ -1,0 +1,14 @@
+{
+    "salmon_version": "0.9.1",
+    "index": "athal_index",
+    "libType": "A",
+    "unmatedReads": [
+        "./reads/14_L001-ds.b8a4ac79f58f4c78a93706633ff196e7/WT_S19_L001_R1_001.fastq.gz",
+        "./reads/14_L002-ds.84cdbe92704741d7b6b9f0de29fc8627/WT_S19_L002_R1_001.fastq.gz",
+        "./reads/14_L003-ds.a0427b7f1fb24335a8bd7402ecee8316/WT_S19_L003_R1_001.fastq.gz",
+        "./reads/14_L004-ds.b34def885b5f49e4ad419cc9b1e93226/WT_S19_L004_R1_001.fastq.gz"
+    ],
+    "threads": "8",
+    "output": "quants/14_quant",
+    "auxDir": "aux_info"
+}
